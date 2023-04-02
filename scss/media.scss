@@ -1,0 +1,898 @@
+@media screen and (max-width: 768px) {
+  div.menu {
+    height: 54px;
+    display: none;
+  }
+  div.menusmall {
+    display: flex;
+  }
+}
+@media screen and (min-width: 769px) {
+  div.menu {
+    height: 54px;
+    display: block;
+  }
+  div.menusmall {
+    display: none;
+  }
+}
+/*author:A.Eshghi*/
+#sect {
+  font-size: 0.79rem;
+  height: inherit;
+  > a:hover {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    background-color: #f2f2f2;
+    color: black;
+  }
+  > a {
+    width: inherit;
+    > i {
+      font-size: 0.5rem;
+    }
+  }
+}
+#sup {
+  font-size: 0.8rem;
+  margin-left: 0.6%;
+  height: inherit;
+  transition: 300ms;
+  line-height: 20px;
+}
+/*author:A.Eshghi*/
+#sup:hover {
+  text-decoration: underline solid black 1px;
+  transition: 300ms;
+}
+#logo {
+  border-right: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo > img {
+  width: 100px;
+  height: 20px;
+}
+#smlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search {
+  background-color: aqua;
+  width: 100%;
+  align-self: center;
+  display: flex;
+  justify-content: left;
+  padding-right: 5px;
+  font-size: 16px;
+}
+#surface {
+  font-weight: 600;
+  font-size: 17px;
+  transition: 300ms;
+  line-height: 20px;
+}
+#surface:hover {
+  text-decoration: underline solid black 2px;
+  transition: 300ms;
+}
+/*author:A.Eshghi*/
+#shop {
+  color: #262626;
+  border: 1px solid black;
+  height: auto;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 8px;
+  line-height: 20px;
+}
+#shop:hover {
+  text-decoration: underline solid black 1px;
+}
+ul.moo {
+  width: 200px;
+  height: auto;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid black;
+  position: absolute;
+  z-index: 100;
+  > div.submenuoo {
+    > div.partial {
+      width: 100%;
+      height: inherit;
+      > div.part {
+        width: 100%;
+        height: inherit;
+        > ul {
+          height: inherit;
+          width: 100%;
+          > li.bigger {
+            width: 100%;
+            height: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: black;
+            padding-left: 24px;
+            text-decoration: none !important;
+          }
+          > li {
+            width: 100%;
+            height: 44px;
+            font-size: 0.8rem;
+            padding-left: 24px;
+            > a {
+              color: black;
+              > i {
+                font-size: 0.5rem;
+              }
+            }
+            &:hover {
+              text-decoration: 1px underline solid black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*author:A.Eshghi*/
+ul.uno {
+  width: 820px;
+  height: 283px;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid black;
+  position: absolute;
+  z-index: 100;
+  > div.submenuo {
+    > div.partial {
+      width: 100%;
+      height: inherit;
+      > div.part {
+        width: 20%;
+        height: inherit;
+        > ul {
+          height: inherit;
+          width: 100%;
+          > li.bigger {
+            width: 100%;
+            height: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: black;
+            padding-left: 24px;
+            text-decoration: none !important;
+          }
+          > li {
+            width: 100%;
+            height: 44px;
+            font-size: 0.8rem;
+            color: black;
+            padding-left: 24px;
+            > a {
+              color: black;
+            }
+            &:hover {
+              text-decoration: 1px underline solid black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+ul.dos {
+  width: 800px;
+  height: 350px;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid black;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 100;
+  > div.submenuoo {
+    > div.partial {
+      width: 100%;
+      height: inherit;
+      > div.part {
+        width: 20%;
+        height: inherit;
+        > ul {
+          height: inherit;
+          width: 100%;
+          > li.bigger {
+            width: 100%;
+            height: 55px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: black;
+            padding-left: 24px;
+            text-decoration: none !important;
+          }
+          > li {
+            width: 100%;
+            height: 55px;
+            font-size: 0.78rem;
+            color: black;
+            padding-left: 24px;
+            > a {
+              color: black;
+            }
+            &:hover {
+              text-decoration: 1.5px underline solid black;
+            }
+          }
+        }
+      }
+    }
+    > div.footer {
+      width: 100%;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #e6e6e6;
+      position: relative;
+      top: 20px;
+      text-align: center;
+      > p {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-weight: 400;
+        cursor: pointer;
+        &:hover {
+          text-decoration: 1px underline solid black;
+        }
+      }
+    }
+  }
+}
+div.menusmall {
+  display: flex;
+  > div.left {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 33%;
+    > div.search {
+      > i {
+        padding: 10px;
+      }
+    }
+    > div.span {
+      width: 25%;
+      height: 34px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &:hover {
+        border: 1px dashed black;
+      }
+      > div.suubmenu {
+        display: none;
+        width: 100%;
+        height: 830px;
+        background-color: #f2f2f2;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        border-bottom: 1px solid black;
+        z-index: 10;
+        > ul {
+          width: 100%;
+          height: inherit;
+          padding-top: 5px;
+          padding-left: 0;
+          > li {
+            list-style: none;
+            width: 100%;
+            height: 55px;
+            padding: 15px;
+            border-bottom: 1px solid grey;
+            &:hover {
+              border: 1px dashed black;
+            }
+          }
+        }
+      }
+      > span {
+        display: block;
+        width: 25px;
+        height: 1px;
+        z-index: 100;
+        > i {
+          &:hover {
+            border: 1px dashed black;
+          }
+        }
+      }
+    }
+  }
+  > div.right {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 33%;
+    > i {
+      padding: 10px;
+    }
+  }
+}
+/*
+div.menusmall {
+  background-color: pink;
+}
+ul.smm {
+  background-color: #262626;
+  position: absolute;
+
+  > div.submenusm {
+    width: 100%;
+    height: 863px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    z-index: 10;
+  }
+}*/
+div.information {
+  height: 54px;
+  > ul.navbar-nav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    > li {
+      &:nth-of-type(1),
+      &:nth-last-of-type(1) {
+        width: 35%;
+
+        > a {
+          color: black;
+          font-size: 0.8rem;
+          &:hover {
+            text-decoration: 1px underline solid black;
+          }
+        }
+      }
+      display: flex;
+      position: relative;
+      width: 20%;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      > a {
+        > div.circle {
+          width: 32px;
+          cursor: pointer;
+          height: 32px;
+          border-radius: 60%;
+          border: 1px solid #373737;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          > i {
+            color: #373737;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+body > div.menu-small {
+  height: 54px;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+}
+div.banner {
+  margin: 0 auto;
+  background-color: #0067b8 !important;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  > a {
+    text-decoration: none;
+    > p {
+      cursor: pointer;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline #fff 1px;
+      }
+    }
+  }
+}
+/*author:A.Eshghi*/
+#logos {
+  > ul {
+    width: 100%;
+    margin: 0 0;
+    padding: 0;
+    > li {
+      > a {
+        color: #0067b8;
+        text-decoration: underline solid #0067b8;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+#kart {
+  cursor: pointer;
+  > div.card-header {
+    font-size: 1rem;
+    font-weight: 600;
+    > span {
+      padding: 0.375em 0.75em;
+    }
+  }
+  > div.card-footer {
+    font-weight: 600;
+    > a {
+      color: #0067b8;
+      text-decoration: none;
+      transition: 100ms;
+      &:hover {
+        text-decoration: underline solid #0067b8 1px;
+        color: #0067b8;
+      }
+    }
+  }
+}
+div.c05 {
+  height: auto;
+  padding: 0 70px 0 70px;
+  top: -70px;
+  > div.h1 {
+    height: 50px;
+    > h1 {
+      font-size: 2.2rem;
+    }
+  }
+  > div.text {
+    height: 24px;
+    > a {
+      margin-left: 15px;
+      color: #0067b8;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover {
+        text-decoration: 1px solid underline #0067b8;
+      }
+      > i {
+        font-size: 1rem;
+        margin-left: 3px;
+        color: #0067b8;
+      }
+    }
+  }
+  > div.slider {
+    height: 500px;
+    div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0;
+
+      &:hover {
+        box-shadow: 3px 3px 3px rgb(175, 175, 175);
+      }
+      > div.card-img {
+        height: auto;
+        > img {
+          width: 100%;
+        }
+      }
+      > div.card-body {
+        padding: 5px;
+        height: auto;
+        > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px;
+          > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem;
+          }
+        }
+        > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8;
+          }
+        }
+        > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > p {
+            font-size: 0.9rem;
+            > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem;
+            }
+          }
+        }
+        > div.text {
+          height: auto;
+          text-align: start;
+          > p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  > div.slider02 {
+    height: 470px;
+    div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0;
+
+      &:hover {
+        box-shadow: 3px 3px 3px rgb(175, 175, 175);
+      }
+      > div.card-img {
+        height: auto;
+        > img {
+          width: 100%;
+        }
+      }
+      > div.card-body {
+        padding: 5px;
+        height: auto;
+        > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px;
+          > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem;
+          }
+        }
+        > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8;
+          }
+        }
+        > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > p {
+            font-size: 0.9rem;
+            > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem;
+            }
+          }
+        }
+        > div.text {
+          height: auto;
+          text-align: start;
+          > p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  > div.slider03 {
+    height: 470px;
+    div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0;
+
+      &:hover {
+        box-shadow: 3px 3px 3px rgb(175, 175, 175);
+      }
+      > div.card-img {
+        height: auto;
+        > img {
+          width: 100%;
+        }
+      }
+      > div.card-body {
+        padding: 5px;
+        height: auto;
+        > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px;
+          > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem;
+          }
+        }
+        > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8;
+          }
+        }
+        > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > p {
+            font-size: 0.9rem;
+            > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem;
+            }
+          }
+        }
+        > div.text {
+          height: auto;
+          text-align: start;
+          > p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  > div.slider04 {
+    height: 490px;
+    div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0;
+
+      &:hover {
+        box-shadow: 3px 3px 3px rgb(175, 175, 175);
+      }
+      > div.card-img {
+        height: auto;
+        > img {
+          width: 90%;
+        }
+      }
+      > div.card-body {
+        padding: 5px;
+        height: auto;
+        > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px;
+          > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem;
+          }
+        }
+        > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8;
+          }
+        }
+        > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start;
+          > p {
+            font-size: 0.9rem;
+            > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem;
+            }
+          }
+        }
+        > div.text {
+          height: auto;
+          text-align: start;
+          > p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+#convo {
+  > h1 {
+    font-size: 1.8rem;
+  }
+}
+div.convoshopping {
+  margin: 0px auto;
+  width: 100%;
+}
+#shopping {
+  cursor: pointer;
+  > div.card-header {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  > div.card-footer {
+    font-weight: 600;
+    > a {
+      color: #0067b8;
+      text-decoration: none;
+      transition: 100ms;
+      &:hover {
+        text-decoration: underline solid #0067b8 1px;
+        color: #0067b8;
+      }
+    }
+  }
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 36px 5% 0px;
+  > div {
+    > ul {
+      width: 100%;
+      list-style: none;
+      > li.tittle {
+        color: #616161;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      > li.link {
+        font-size: 11px;
+        line-height: 16px;
+        padding: 8px 0px;
+        > a {
+          text-decoration: none;
+          color: #616161;
+          &:hover {
+            color: #262626;
+            text-decoration: underline #262626 1px;
+          }
+        }
+      }
+    }
+    > div {
+      > i {
+        font-size: 20px;
+        line-height: 24px;
+        margin-right: 10px;
+        color: #616161;
+      }
+      > h6 {
+        font-size: 12px;
+        line-height: 20px;
+        display: inline-block;
+        padding-right: 24px;
+        color: #616161;
+        &:hover {
+          text-decoration: underline #616161 1px;
+        }
+      }
+    }
+    > div.tags {
+      justify-content: space-between;
+      padding-bottom: 25px;
+      font-size: 11px;
+      line-height: 16px;
+      padding-top: 10px;
+      > a {
+        color: #616161;
+        text-decoration: none;
+        &:hover {
+          color: #262626;
+          text-decoration: underline #262626 1px;
+        }
+      }
+    }
+  }
+  > div.credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background: rgb(0, 103, 184);
+    background: radial-gradient(
+      circle,
+      rgba(0, 103, 184, 1) 0%,
+      rgba(242, 242, 242, 1) 100%
+    );
+    > h3 {
+      display: flex;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+}
+div.question {
+  height: 40px;
+  background-color: #0068b8ce;
+  padding: 10px 12px;
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  cursor: pointer;
+  z-index: 1000;
+  > p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+div.btot {
+  height: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+  padding: 10px 12px;
+  position: fixed;
+  bottom: 40px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 1000;
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+  > a {
+    text-decoration: none;
+    > p {
+      font-size: 1rem;
+      color: black;
+      text-align: center;
+      font-weight: 600;
+    }
+    > i {
+      font-size: 1rem;
+      color: black;
+    }
+  }
+}

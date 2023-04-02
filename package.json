@@ -1,0 +1,17 @@
+{
+  "name": "microsoft-proj",
+  "version": "1.0.0",
+  "description": "This is Microsoft site-sample using bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"node-sass --watch scss/ --output css/ --recursive"
+  },
+  "author": "A.Eshghi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "live-server": "^1.2.2",
+    "node-sass": "^8.0.0"
+  }
+}

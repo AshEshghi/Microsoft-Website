@@ -1,0 +1,756 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 768px) {
+  div.menu {
+    height: 54px;
+    display: none; }
+  div.menusmall {
+    display: flex; } }
+
+@media screen and (min-width: 769px) {
+  div.menu {
+    height: 54px;
+    display: block; }
+  div.menusmall {
+    display: none; } }
+
+/*author:A.Eshghi*/
+#sect {
+  font-size: 0.79rem;
+  height: inherit; }
+  #sect > a:hover {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    background-color: #f2f2f2;
+    color: black; }
+  #sect > a {
+    width: inherit; }
+    #sect > a > i {
+      font-size: 0.5rem; }
+
+#sup {
+  font-size: 0.8rem;
+  margin-left: 0.6%;
+  height: inherit;
+  transition: 300ms;
+  line-height: 20px; }
+
+/*author:A.Eshghi*/
+#sup:hover {
+  text-decoration: underline solid black 1px;
+  transition: 300ms; }
+
+#logo {
+  border-right: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#logo > img {
+  width: 100px;
+  height: 20px; }
+
+#smlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#search {
+  background-color: aqua;
+  width: 100%;
+  align-self: center;
+  display: flex;
+  justify-content: left;
+  padding-right: 5px;
+  font-size: 16px; }
+
+#surface {
+  font-weight: 600;
+  font-size: 17px;
+  transition: 300ms;
+  line-height: 20px; }
+
+#surface:hover {
+  text-decoration: underline solid black 2px;
+  transition: 300ms; }
+
+/*author:A.Eshghi*/
+#shop {
+  color: #262626;
+  border: 1px solid black;
+  height: auto;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 8px;
+  line-height: 20px; }
+
+#shop:hover {
+  text-decoration: underline solid black 1px; }
+
+ul.moo {
+  width: 200px;
+  height: auto;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid black;
+  position: absolute;
+  z-index: 100; }
+  ul.moo > div.submenuoo > div.partial {
+    width: 100%;
+    height: inherit; }
+    ul.moo > div.submenuoo > div.partial > div.part {
+      width: 100%;
+      height: inherit; }
+      ul.moo > div.submenuoo > div.partial > div.part > ul {
+        height: inherit;
+        width: 100%; }
+        ul.moo > div.submenuoo > div.partial > div.part > ul > li.bigger {
+          width: 100%;
+          height: 50px;
+          font-size: 0.8rem;
+          font-weight: 600;
+          color: black;
+          padding-left: 24px;
+          text-decoration: none !important; }
+        ul.moo > div.submenuoo > div.partial > div.part > ul > li {
+          width: 100%;
+          height: 44px;
+          font-size: 0.8rem;
+          padding-left: 24px; }
+          ul.moo > div.submenuoo > div.partial > div.part > ul > li > a {
+            color: black; }
+            ul.moo > div.submenuoo > div.partial > div.part > ul > li > a > i {
+              font-size: 0.5rem; }
+          ul.moo > div.submenuoo > div.partial > div.part > ul > li:hover {
+            text-decoration: 1px underline solid black; }
+
+/*author:A.Eshghi*/
+ul.uno {
+  width: 820px;
+  height: 283px;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid black;
+  position: absolute;
+  z-index: 100; }
+  ul.uno > div.submenuo > div.partial {
+    width: 100%;
+    height: inherit; }
+    ul.uno > div.submenuo > div.partial > div.part {
+      width: 20%;
+      height: inherit; }
+      ul.uno > div.submenuo > div.partial > div.part > ul {
+        height: inherit;
+        width: 100%; }
+        ul.uno > div.submenuo > div.partial > div.part > ul > li.bigger {
+          width: 100%;
+          height: 50px;
+          font-size: 0.8rem;
+          font-weight: 600;
+          color: black;
+          padding-left: 24px;
+          text-decoration: none !important; }
+        ul.uno > div.submenuo > div.partial > div.part > ul > li {
+          width: 100%;
+          height: 44px;
+          font-size: 0.8rem;
+          color: black;
+          padding-left: 24px; }
+          ul.uno > div.submenuo > div.partial > div.part > ul > li > a {
+            color: black; }
+          ul.uno > div.submenuo > div.partial > div.part > ul > li:hover {
+            text-decoration: 1px underline solid black; }
+
+ul.dos {
+  width: 800px;
+  height: 350px;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid black;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 100; }
+  ul.dos > div.submenuoo > div.partial {
+    width: 100%;
+    height: inherit; }
+    ul.dos > div.submenuoo > div.partial > div.part {
+      width: 20%;
+      height: inherit; }
+      ul.dos > div.submenuoo > div.partial > div.part > ul {
+        height: inherit;
+        width: 100%; }
+        ul.dos > div.submenuoo > div.partial > div.part > ul > li.bigger {
+          width: 100%;
+          height: 55px;
+          font-size: 0.78rem;
+          font-weight: 600;
+          color: black;
+          padding-left: 24px;
+          text-decoration: none !important; }
+        ul.dos > div.submenuoo > div.partial > div.part > ul > li {
+          width: 100%;
+          height: 55px;
+          font-size: 0.78rem;
+          color: black;
+          padding-left: 24px; }
+          ul.dos > div.submenuoo > div.partial > div.part > ul > li > a {
+            color: black; }
+          ul.dos > div.submenuoo > div.partial > div.part > ul > li:hover {
+            text-decoration: 1.5px underline solid black; }
+  ul.dos > div.submenuoo > div.footer {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+    position: relative;
+    top: 20px;
+    text-align: center; }
+    ul.dos > div.submenuoo > div.footer > p {
+      display: flex;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      font-weight: 400;
+      cursor: pointer; }
+      ul.dos > div.submenuoo > div.footer > p:hover {
+        text-decoration: 1px underline solid black; }
+
+div.menusmall {
+  display: flex; }
+  div.menusmall > div.left {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 33%; }
+    div.menusmall > div.left > div.search > i {
+      padding: 10px; }
+    div.menusmall > div.left > div.span {
+      width: 25%;
+      height: 34px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+      div.menusmall > div.left > div.span:hover {
+        border: 1px dashed black; }
+      div.menusmall > div.left > div.span > div.suubmenu {
+        display: none;
+        width: 100%;
+        height: 830px;
+        background-color: #f2f2f2;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        border-bottom: 1px solid black;
+        z-index: 10; }
+        div.menusmall > div.left > div.span > div.suubmenu > ul {
+          width: 100%;
+          height: inherit;
+          padding-top: 5px;
+          padding-left: 0; }
+          div.menusmall > div.left > div.span > div.suubmenu > ul > li {
+            list-style: none;
+            width: 100%;
+            height: 55px;
+            padding: 15px;
+            border-bottom: 1px solid grey; }
+            div.menusmall > div.left > div.span > div.suubmenu > ul > li:hover {
+              border: 1px dashed black; }
+      div.menusmall > div.left > div.span > span {
+        display: block;
+        width: 25px;
+        height: 1px;
+        z-index: 100; }
+        div.menusmall > div.left > div.span > span > i:hover {
+          border: 1px dashed black; }
+  div.menusmall > div.right {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 33%; }
+    div.menusmall > div.right > i {
+      padding: 10px; }
+
+/*
+div.menusmall {
+  background-color: pink;
+}
+ul.smm {
+  background-color: #262626;
+  position: absolute;
+
+  > div.submenusm {
+    width: 100%;
+    height: 863px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    z-index: 10;
+  }
+}*/
+div.information {
+  height: 54px; }
+  div.information > ul.navbar-nav {
+    height: inherit;
+    display: flex;
+    align-items: center; }
+    div.information > ul.navbar-nav > li {
+      display: flex;
+      position: relative;
+      width: 20%;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer; }
+      div.information > ul.navbar-nav > li:nth-of-type(1), div.information > ul.navbar-nav > li:nth-last-of-type(1) {
+        width: 35%; }
+        div.information > ul.navbar-nav > li:nth-of-type(1) > a, div.information > ul.navbar-nav > li:nth-last-of-type(1) > a {
+          color: black;
+          font-size: 0.8rem; }
+          div.information > ul.navbar-nav > li:nth-of-type(1) > a:hover, div.information > ul.navbar-nav > li:nth-last-of-type(1) > a:hover {
+            text-decoration: 1px underline solid black; }
+      div.information > ul.navbar-nav > li > a > div.circle {
+        width: 32px;
+        cursor: pointer;
+        height: 32px;
+        border-radius: 60%;
+        border: 1px solid #373737;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        div.information > ul.navbar-nav > li > a > div.circle > i {
+          color: #373737;
+          font-size: 1rem; }
+
+body > div.menu-small {
+  height: 54px;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex; }
+
+div.banner {
+  margin: 0 auto;
+  background-color: #0067b8 !important;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto; }
+  div.banner > a {
+    text-decoration: none; }
+    div.banner > a > p {
+      cursor: pointer;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none; }
+      div.banner > a > p:hover {
+        text-decoration: underline #fff 1px; }
+
+/*author:A.Eshghi*/
+#logos > ul {
+  width: 100%;
+  margin: 0 0;
+  padding: 0; }
+  #logos > ul > li > a {
+    color: #0067b8;
+    text-decoration: underline solid #0067b8;
+    font-size: 1rem;
+    font-weight: 600; }
+
+#kart {
+  cursor: pointer; }
+  #kart > div.card-header {
+    font-size: 1rem;
+    font-weight: 600; }
+    #kart > div.card-header > span {
+      padding: 0.375em 0.75em; }
+  #kart > div.card-footer {
+    font-weight: 600; }
+    #kart > div.card-footer > a {
+      color: #0067b8;
+      text-decoration: none;
+      transition: 100ms; }
+      #kart > div.card-footer > a:hover {
+        text-decoration: underline solid #0067b8 1px;
+        color: #0067b8; }
+
+div.c05 {
+  height: auto;
+  padding: 0 70px 0 70px;
+  top: -70px; }
+  div.c05 > div.h1 {
+    height: 50px; }
+    div.c05 > div.h1 > h1 {
+      font-size: 2.2rem; }
+  div.c05 > div.text {
+    height: 24px; }
+    div.c05 > div.text > a {
+      margin-left: 15px;
+      color: #0067b8;
+      text-decoration: none;
+      font-weight: 600; }
+      div.c05 > div.text > a:hover {
+        text-decoration: 1px solid underline #0067b8; }
+      div.c05 > div.text > a > i {
+        font-size: 1rem;
+        margin-left: 3px;
+        color: #0067b8; }
+  div.c05 > div.slider {
+    height: 500px; }
+    div.c05 > div.slider div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0; }
+      div.c05 > div.slider div.p:hover {
+        box-shadow: 3px 3px 3px #afafaf; }
+      div.c05 > div.slider div.p > div.card-img {
+        height: auto; }
+        div.c05 > div.slider div.p > div.card-img > img {
+          width: 100%; }
+      div.c05 > div.slider div.p > div.card-body {
+        padding: 5px;
+        height: auto; }
+        div.c05 > div.slider div.p > div.card-body > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px; }
+          div.c05 > div.slider div.p > div.card-body > div.price > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem; }
+        div.c05 > div.slider div.p > div.card-body > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider div.p > div.card-body > div.tittle > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8; }
+        div.c05 > div.slider div.p > div.card-body > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider div.p > div.card-body > div.price02 > p {
+            font-size: 0.9rem; }
+            div.c05 > div.slider div.p > div.card-body > div.price02 > p > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem; }
+        div.c05 > div.slider div.p > div.card-body > div.text {
+          height: auto;
+          text-align: start; }
+          div.c05 > div.slider div.p > div.card-body > div.text > p {
+            font-size: 1rem; }
+  div.c05 > div.slider02 {
+    height: 470px; }
+    div.c05 > div.slider02 div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0; }
+      div.c05 > div.slider02 div.p:hover {
+        box-shadow: 3px 3px 3px #afafaf; }
+      div.c05 > div.slider02 div.p > div.card-img {
+        height: auto; }
+        div.c05 > div.slider02 div.p > div.card-img > img {
+          width: 100%; }
+      div.c05 > div.slider02 div.p > div.card-body {
+        padding: 5px;
+        height: auto; }
+        div.c05 > div.slider02 div.p > div.card-body > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px; }
+          div.c05 > div.slider02 div.p > div.card-body > div.price > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem; }
+        div.c05 > div.slider02 div.p > div.card-body > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider02 div.p > div.card-body > div.tittle > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8; }
+        div.c05 > div.slider02 div.p > div.card-body > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider02 div.p > div.card-body > div.price02 > p {
+            font-size: 0.9rem; }
+            div.c05 > div.slider02 div.p > div.card-body > div.price02 > p > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem; }
+        div.c05 > div.slider02 div.p > div.card-body > div.text {
+          height: auto;
+          text-align: start; }
+          div.c05 > div.slider02 div.p > div.card-body > div.text > p {
+            font-size: 1rem; }
+  div.c05 > div.slider03 {
+    height: 470px; }
+    div.c05 > div.slider03 div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0; }
+      div.c05 > div.slider03 div.p:hover {
+        box-shadow: 3px 3px 3px #afafaf; }
+      div.c05 > div.slider03 div.p > div.card-img {
+        height: auto; }
+        div.c05 > div.slider03 div.p > div.card-img > img {
+          width: 100%; }
+      div.c05 > div.slider03 div.p > div.card-body {
+        padding: 5px;
+        height: auto; }
+        div.c05 > div.slider03 div.p > div.card-body > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px; }
+          div.c05 > div.slider03 div.p > div.card-body > div.price > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem; }
+        div.c05 > div.slider03 div.p > div.card-body > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider03 div.p > div.card-body > div.tittle > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8; }
+        div.c05 > div.slider03 div.p > div.card-body > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider03 div.p > div.card-body > div.price02 > p {
+            font-size: 0.9rem; }
+            div.c05 > div.slider03 div.p > div.card-body > div.price02 > p > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem; }
+        div.c05 > div.slider03 div.p > div.card-body > div.text {
+          height: auto;
+          text-align: start; }
+          div.c05 > div.slider03 div.p > div.card-body > div.text > p {
+            font-size: 1rem; }
+  div.c05 > div.slider04 {
+    height: 490px; }
+    div.c05 > div.slider04 div.p {
+      cursor: pointer;
+      height: inherit;
+      width: 100%;
+      border-radius: 0; }
+      div.c05 > div.slider04 div.p:hover {
+        box-shadow: 3px 3px 3px #afafaf; }
+      div.c05 > div.slider04 div.p > div.card-img {
+        height: auto; }
+        div.c05 > div.slider04 div.p > div.card-img > img {
+          width: 90%; }
+      div.c05 > div.slider04 div.p > div.card-body {
+        padding: 5px;
+        height: auto; }
+        div.c05 > div.slider04 div.p > div.card-body > div.price {
+          height: 32px;
+          background-color: #ffb900;
+          padding-top: 3px; }
+          div.c05 > div.slider04 div.p > div.card-body > div.price > p {
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1rem; }
+        div.c05 > div.slider04 div.p > div.card-body > div.tittle {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider04 div.p > div.card-body > div.tittle > h1.card-title {
+            font-size: 1rem;
+            color: #0067b8;
+            text-decoration: 1px solid underline #0067b8; }
+        div.c05 > div.slider04 div.p > div.card-body > div.price02 {
+          height: auto;
+          margin-bottom: 15px;
+          text-align: start; }
+          div.c05 > div.slider04 div.p > div.card-body > div.price02 > p {
+            font-size: 0.9rem; }
+            div.c05 > div.slider04 div.p > div.card-body > div.price02 > p > span {
+              margin-left: 5px;
+              color: black;
+              font-weight: 600;
+              font-size: 1rem; }
+        div.c05 > div.slider04 div.p > div.card-body > div.text {
+          height: auto;
+          text-align: start; }
+          div.c05 > div.slider04 div.p > div.card-body > div.text > p {
+            font-size: 1rem; }
+
+#convo > h1 {
+  font-size: 1.8rem; }
+
+div.convoshopping {
+  margin: 0px auto;
+  width: 100%; }
+
+#shopping {
+  cursor: pointer; }
+  #shopping > div.card-header {
+    font-size: 1rem;
+    font-weight: 600; }
+  #shopping > div.card-footer {
+    font-weight: 600; }
+    #shopping > div.card-footer > a {
+      color: #0067b8;
+      text-decoration: none;
+      transition: 100ms; }
+      #shopping > div.card-footer > a:hover {
+        text-decoration: underline solid #0067b8 1px;
+        color: #0067b8; }
+
+footer {
+  background-color: #f2f2f2;
+  padding: 36px 5% 0px; }
+  footer > div > ul {
+    width: 100%;
+    list-style: none; }
+    footer > div > ul > li.tittle {
+      color: #616161;
+      font-size: 1rem;
+      font-weight: 600; }
+    footer > div > ul > li.link {
+      font-size: 11px;
+      line-height: 16px;
+      padding: 8px 0px; }
+      footer > div > ul > li.link > a {
+        text-decoration: none;
+        color: #616161; }
+        footer > div > ul > li.link > a:hover {
+          color: #262626;
+          text-decoration: underline #262626 1px; }
+  footer > div > div > i {
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #616161; }
+  footer > div > div > h6 {
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    padding-right: 24px;
+    color: #616161; }
+    footer > div > div > h6:hover {
+      text-decoration: underline #616161 1px; }
+  footer > div > div.tags {
+    justify-content: space-between;
+    padding-bottom: 25px;
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 10px; }
+    footer > div > div.tags > a {
+      color: #616161;
+      text-decoration: none; }
+      footer > div > div.tags > a:hover {
+        color: #262626;
+        text-decoration: underline #262626 1px; }
+  footer > div.credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background: #0067b8;
+    background: radial-gradient(circle, #0067b8 0%, #f2f2f2 100%); }
+    footer > div.credits > h3 {
+      display: flex;
+      font-size: 1rem;
+      font-weight: 600; }
+
+div.question {
+  height: 40px;
+  background-color: #0068b8ce;
+  padding: 10px 12px;
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  cursor: pointer;
+  z-index: 1000; }
+  div.question > p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: 600; }
+
+div.btot {
+  height: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+  padding: 10px 12px;
+  position: fixed;
+  bottom: 40px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 1000; }
+  div.btot:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); }
+  div.btot > a {
+    text-decoration: none; }
+    div.btot > a > p {
+      font-size: 1rem;
+      color: black;
+      text-align: center;
+      font-weight: 600; }
+    div.btot > a > i {
+      font-size: 1rem;
+      color: black; }
+
+.swiper {
+  width: 100%;
+  height: 99%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  /*Centerslidetextvertically*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-transition: 300ms; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover; }
